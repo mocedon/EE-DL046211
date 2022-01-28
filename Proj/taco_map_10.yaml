@@ -1,0 +1,9 @@
+
+path: ../datasets/taco_map_10  # dataset root dir
+train: images/train  # train images (relative to 'path') 128 images
+val: images/val  # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+nc: 10  # number of classes
+names: ['Bottle','Bottle cap','Can','Cigarette','Cup','Lid','Other','Plastic','Pop tap','Straw']
